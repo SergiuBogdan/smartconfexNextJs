@@ -41,19 +41,29 @@ const Section = styled.section`
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
     .title {
       color: white;
       h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         letter-spacing: 0.2rem;
+        color: darkorange;
+        @media (max-width: 1024px) {        
+          font-size: 1.8rem;
+}
       }
       p {
         text-align: center;
         padding: 0 30vw;
         margin-top: 0.5rem;
-        font-size: 1.2rem;
+        font-size: 2.2rem;
+        color: darkorange;
+        margin-top: 50px;
+        @media (max-width: 1024px) {        
+          font-size: 1rem;
+}
       }
-    }
+     
     .search {
       display: flex;
       background-color: #ffffffce;
@@ -109,6 +119,7 @@ const Section = styled.section`
       background-color: palegreen;
     }
     .content {
+      
       .title {
         h1 {
           font-size: 1rem;

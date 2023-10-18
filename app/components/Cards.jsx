@@ -156,7 +156,8 @@ const Section = styled.section`
       width: 450px;
       flex-direction: column;
       gap: 0.5rem;
-      background-color: #e1e8f2;
+      background: rgb(219,230,250);
+      background: linear-gradient(205deg, rgba(219,230,250,1) 0%, rgba(117,178,232,1) 100%, rgba(231,241,255,1) 100%);
       border-radius: 1rem;
       Image {
         width: 450px;

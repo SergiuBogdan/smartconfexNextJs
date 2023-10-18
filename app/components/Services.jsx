@@ -63,7 +63,14 @@ const Section = styled.section`
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
-    background-color: aliceblue;
+    border-radius: 3px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      205deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(228, 224, 250, 1) 0%,
+      rgba(234, 240, 255, 1) 100%
+    );
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s ease-in-out;
     &:hover {
