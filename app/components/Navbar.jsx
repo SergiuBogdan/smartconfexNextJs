@@ -105,7 +105,6 @@ const Nav = styled.nav`
       &:first-of-type {
         a {
           color: #023e8a;
-          font-weight: 900;
         }
       }
     }
