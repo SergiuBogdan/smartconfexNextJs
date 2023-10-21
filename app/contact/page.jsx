@@ -92,7 +92,7 @@ const Contacts = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          />
         </GoogleMapsContainer>
       </MainContainer>
       <Footer />
@@ -160,7 +160,7 @@ const FormContainer = styled.form`
     border-radius: 15px;
 
     span {
-      color: rgb(29, 185, 237);
+      color: darkorange;
     }
 
     @media (max-width: 1024px) {
@@ -227,7 +227,7 @@ const GoogleMapsContainer = styled.div`
 `;
 
 const SubmitButton = styled.button`
-  background-color: #007bff;
+  background-color: darkorange;
   color: white;
   border: none;
   border-radius: 0.3rem;

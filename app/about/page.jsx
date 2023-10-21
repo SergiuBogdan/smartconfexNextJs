@@ -83,7 +83,6 @@ const Container = styled.div`
   line-height: 1.4em;
   font-size: 34px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
 `;
 
 const SecondContainer = styled.div`
@@ -143,7 +142,6 @@ const SecondContainerParagraph = styled.p`
   color: #2b161b;
   line-height: 1.2em;
   text-align: left;
-  font-family: "Playfair Display", serif;
 `;
 
 const ThirdContainerParagraph = styled.p`
