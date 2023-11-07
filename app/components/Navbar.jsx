@@ -14,7 +14,9 @@ export default function Navbar() {
       <Nav id="navbar">
         <div className="brand">
           <div className="container">
-            <Image src={logo} alt="logo" width={90} />
+            <a href="/">
+              <Image src={logo} alt="logo" width={90} />
+            </a>
           </div>
           <div className="toggle">
             {navbarState ? (
