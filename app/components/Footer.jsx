@@ -6,15 +6,16 @@ import phone from "../assets/phone.png";
 import email from "../assets/email.png";
 import location from "../assets/location.png";
 import Copyrights from "./Copyrights";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
       <MainContainer>
         <FirstDiv>
-          <a href="#navbar">
+          <Link href="#navbar">
             <Image src={logo} alt="logo" className="logo" width={218} />
-          </a>
+          </Link>
         </FirstDiv>
 
         <div className="containerLeft">
@@ -65,19 +66,19 @@ export default function Footer() {
         <ThirdContainer>
           <UnorderedList>
             <li>
-              <a href="/contact">Contacts</a>
+              <Link href="/contact">Contacts</Link>
             </li>
             <li>
-              <a href="/terms">Terms and Conditions</a>
+              <Link href="/terms">Terms and Conditions</Link>
             </li>
             <li>
-              <a href="/policy">Privacy Policy</a>
+              <Link href="/policy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="/cookies">Cookies</a>
+              <Link href="/cookies">Cookies</Link>
             </li>
             <li>
-              <a href="https://anpc.ro">ANPC</a>
+              <Link href="https://anpc.ro">ANPC</Link>
             </li>
           </UnorderedList>
         </ThirdContainer>

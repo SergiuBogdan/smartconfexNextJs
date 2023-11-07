@@ -1,5 +1,6 @@
 "use client";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Modal = ({ showModal, onAccept, onRefuse }) => {
   if (!showModal) {
@@ -19,12 +20,12 @@ const Modal = ({ showModal, onAccept, onRefuse }) => {
       <LinkContainer>
         <div>
           <p>
-            <a href="/cookies">Cookie Policy</a>
+            <Link href="/cookies">Cookie Policy</Link>
           </p>
         </div>
         <div>
           <p>
-            <a href="/policy">Privacy Policy</a>
+            <Link href="/policy">Privacy Policy</Link>
           </p>
         </div>
       </LinkContainer>

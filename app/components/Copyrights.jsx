@@ -3,6 +3,7 @@ import Image from "next/image";
 import SOL from "../assets/SOL.png";
 import SAL from "../assets/SAL.png";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Copyrights = () => {
   return (
@@ -11,14 +12,14 @@ const Copyrights = () => {
 
       <FirstDiv>
         <div>
-          <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN">
+          <Link href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN">
             <Image src={SOL} alt="ANPC" height={45} />
-          </a>
+          </Link>
         </div>
         <div>
-          <a href="https://anpc.ro/ce-este-sal/">
+          <Link href="https://anpc.ro/ce-este-sal/">
             <Image src={SAL} alt="ANPC" height={45} />
-          </a>
+          </Link>
         </div>
       </FirstDiv>
     </Copyright>

@@ -5,6 +5,7 @@ import styled from "styled-components";
 import logo from "../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
+import Link from "next/link";
 export default function Navbar() {
   const [navbarState, setNavbarState] = useState(false);
 
@@ -26,13 +27,13 @@ export default function Navbar() {
 
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <button></button>
@@ -40,19 +41,19 @@ export default function Navbar() {
       <ResponsiveNav state={navbarState ? "true" : undefined}>
         <ul>
           <li>
-            <a href="/" onClick={() => setNavbarState(false)}>
+            <Link href="/" onClick={() => setNavbarState(false)}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about" onClick={() => setNavbarState(false)}>
+            <Link href="/about" onClick={() => setNavbarState(false)}>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact" onClick={() => setNavbarState(false)}>
+            <Link href="/contact" onClick={() => setNavbarState(false)}>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </ResponsiveNav>
